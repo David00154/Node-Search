@@ -7,7 +7,7 @@ var btn = document.getElementById('btn');
 				document.getElementById('hourGlass').innerHTML += '&#xf251;';
 			};
 			//hourGlass();
-			fetch(`/users`, {
+			fetch(`/`, {
 			method: "post",
 			headers: { "Content-Type": "application/json" },
 			body: JSON.stringify({text: `${text.value}`})
