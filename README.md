@@ -1,2 +1,2 @@
 # Node-Search
-a search engine made by from node.js
+a search engine made from node.js
